@@ -15,4 +15,5 @@ rat = float(input("Enter rate:"))
 Pay = hrs*rat
 print("Pay:", float(Pay)
 
-#DONE      
+#DONE
+#P
