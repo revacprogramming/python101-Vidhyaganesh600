@@ -1,5 +1,5 @@
 
-def add(a, b):
+'''def add(a, b):
     pass  # ...
 
 
@@ -15,4 +15,27 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main()'''
+
+
+def add(a, b):
+   return a+b
+
+
+def output(a, b, sum):
+   #print("sum of %d + %d is %d"%(a,b,sum))
+   #print(f'sum of {a}+{b}={sum}')
+   s='{}+{} ={}'
+   print(s.format(a,b,sum))
+
+def main():
+    a=int(input("enter the numbers"))
+    b=int(input("enter the numbers"))
+    sum=add(a,b)
+    output(a, b, sum)
+
+
+if __name__ == '__main__':
+     main()
+
+
