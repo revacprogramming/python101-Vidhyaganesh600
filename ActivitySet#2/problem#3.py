@@ -19,13 +19,17 @@ if __name__ == '__main__':
     main()'''
 
 def get_cs():
-    Pepet=input("Enter the string")
+    Pepet=str(input("Enter the string"))
     return Pepet
 
 
 def cs_to_lot(cs):
-    Pep=list(cs)
-    return Pep
+    pep=list()
+    s=cs.split(';')
+    for i  in s:
+       v=(i.split('='))
+       pep.append(v)
+    return pep
 
 
 def main():
