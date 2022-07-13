@@ -2,11 +2,9 @@
 
 def get_cs():
     """get string input"""
-     nam=input()
 
 def cs_to_lot(cs):
     """convert connected string to list of strings"""
-    cap=nam.append.tuple()
 
 def lot_to_cs(lot):
     """convert list of strings to connected string"""
