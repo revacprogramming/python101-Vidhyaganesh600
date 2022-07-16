@@ -19,6 +19,7 @@ class point:
 p=point(x,y)
 point__init__((x1,y1),(0.0,0.0))
 p2=point((x2,y2),(0.0,1.0))
-p3=point((x3,y3),(1.0,0.0))        
+p3=point((x3,y3),(1.0,0.0))
+K
 
 
